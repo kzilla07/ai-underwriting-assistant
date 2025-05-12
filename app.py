@@ -11,10 +11,10 @@ st.sidebar.header("Deal Inputs")
 purchase_price = st.sidebar.number_input("Purchase Price ($)", value=5000000)
 rent_per_unit = st.sidebar.number_input("Monthly Rent/Unit ($)", value=1800)
 unit_count = st.sidebar.number_input("Number of Units", value=40)
-expense_ratio = st.sidebar.slider("Operating Expense Ratio (%)", min_value=30, max_value=60, value=40)
+expense_ratio = st.sidebar.slider("Operating Expense Ratio (%)", min_value=20, max_value=60, value=40)
 development_costs = st.sidebar.number_input("Rehab/Development Costs ($)", value=2000000)
-exit_cap_rate = st.sidebar.slider("Exit Cap Rate (%)", min_value=3.5, max_value=6.0, value=5.0)
-hold_period = st.sidebar.slider("Hold Period (years)", 2, 10, 5)
+exit_cap_rate = st.sidebar.slider("Exit Cap Rate (%)", min_value=3.5, max_value=15.0, value=5.0)
+hold_period = st.sidebar.slider("Hold Period (years)", 2, 20, 5)
 
 # Entity Selection
 st.sidebar.header("Select Your Role")
