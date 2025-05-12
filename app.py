@@ -7,7 +7,7 @@ import pandas as pd
 
 # Config
 st.set_page_config(page_title="AI Underwriting Assistant", layout="wide")
-openai.api_key = st.secrets["OPENAI_API_KEY"]
+openai.api_key = "your-openai-api-key-here"
 
 # Sidebar Inputs
 st.sidebar.header("Deal Inputs")
